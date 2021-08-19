@@ -1,0 +1,64 @@
+h1 {
+  background: rgb(51, 49, 49);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 100px;
+  border-bottom: 3px solid white;
+}
+
+body {
+  background-color: lightgray;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#container {
+  margin: auto;
+  width: auto;
+  display: inline-flex;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  border: solid 1px black;
+  padding: 0px;
+}
+
+caption {
+  background-color: steelblue;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  border: solid 1px black;
+  padding: 20px;
+}
+
+thead {
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+tr:hover {
+  background-color: steelblue;
+}
+
+footer {
+  background: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 3px solid white;
+}
